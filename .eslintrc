@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    "import/extensions": "off",
+    "no-param-reassign": ["error", {"props": true, "ignorePropertyModificationsFor": ["state"]}],
+    "no-shadow": "off",
+    "react/display-name": "off"
+  }
+}
