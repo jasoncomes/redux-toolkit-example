@@ -1,15 +1,11 @@
 # Redux Toolkit Example
 
-## Getting Started
-
-First, run the development server:
-
 ```bash
 npm i;
 
-# dev
+# development server
 npm run dev;
 
-# build
+# static build for production
 npm run build;
 ```
